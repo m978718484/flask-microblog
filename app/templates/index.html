@@ -1,0 +1,7 @@
+{% extends "base.html"%}
+{% block content %}
+<p>Hi,{{name}}</p>
+{% for post in posts %}
+<p>{{post.author.name}} says:<b>{{post.body}}</b></p>
+{% endfor %}
+{% endblock %}
