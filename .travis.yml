@@ -18,4 +18,4 @@ after_script:
 
 env:
  global:
-   - test: github.com/m978718484/flask-microblog.github.io.git
+   - test: github.com/m978718484/flask-microblog.git
