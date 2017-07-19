@@ -1,4 +1,4 @@
-pytz===
+pytz
 itsdangerous
 werkzeug
 babel==1.0
