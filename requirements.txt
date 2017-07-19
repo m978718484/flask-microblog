@@ -1,8 +1,8 @@
-pytz===2010o
-itsdangerous==1.0.dev20160805
-werkzeug==0.12.dev0
+pytz===
+itsdangerous
+werkzeug
 babel==1.0
-markupsafe==1.0.dev20160805
+markupsafe
 Jinja2==2.8
 Flask==0.11
 Flask-Admin==1.4.2
