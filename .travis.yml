@@ -5,3 +5,17 @@ python:
 install: "pip install -r requirements.txt"
 # command to run tests
 script: python run.py
+
+after_script:
+  - mkdir build
+  - cp  app build
+  - git config user.name "m978718484"
+  - git config user.email "m978718484@163.com"
+  - git add .
+  - git commit -m "Update docs"
+  - git push --force --quiet "https://${travis-test}@${test}" master:master
+# E: Build LifeCycle
+
+env:
+ global:
+   - test: github.com/m978718484/flask-microblog.github.io.git
