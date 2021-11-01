@@ -3,5 +3,5 @@ itsdangerous
 werkzeug
 babel==2.9.1
 markupsafe
-Jinja2==2.8
+Jinja2==2.11.3
 Flask==0.11
